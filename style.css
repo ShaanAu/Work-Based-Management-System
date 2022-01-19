@@ -1,0 +1,12 @@
+.card-text {
+  color: #999999;
+  margin-bottom: 7.5px;
+  display: block;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 7.5px;
+}

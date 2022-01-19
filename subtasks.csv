@@ -1,0 +1,3 @@
+ Date Completed, Date Started, Percent_Completion, Status, SubTask, Subtask Assignee,Project,Project ID,Team
+,24-11-2021,100%,Completed,Do simple data analysis in excel,M1,Data Analytics,3,"A1, M1"
+,24-11-2021,0%,Not Started,simple eda,M2,Machine Learning,4,"A1, M2"

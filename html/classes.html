@@ -1,0 +1,2220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>classes API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>classes</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python"># Import Packages &amp; Libraries
+import dash
+import dash_auth
+import dash_html_components as html
+import plotly
+import pandas as pd
+import smtplib, ssl
+import base64
+from sqlalchemy import create_engine
+import concurrent.futures
+import sqlite3 as sql
+
+engine = create_engine(&#39;sqlite://&#39;, echo=False)
+
+
+class Email:
+
+    &#34;&#34;&#34;
+    Class used for setting up the connection to send emails after updating
+    SubTasks or Projects Data Table
+
+    ...
+
+    Attributes
+    ----------
+    port : int
+        port for email connection
+    smtp_server : str
+        internet standard communication protcol for email
+    sender_email : str
+        email used to send our automated emails
+    password : str
+        password for sender_email
+
+    Methods
+    -------
+    GetPort()
+        return the port as an int
+
+    SenderEmail_Password()
+        returns both sender_email and password
+
+    smtp_server()
+        returns smtp sever as string
+    &#34;&#34;&#34;
+
+
+    def __init__(self, port, smtp_server, sender_email, password):
+        self.port = port
+        self.smtp_server = smtp_server
+        self.sender_email = sender_email
+        self.password = password
+    def GetPort(self):
+        &#34;&#34;&#34;
+        return the port as an int
+        &#34;&#34;&#34;
+
+
+        return self.port
+
+    def SenderEmail_Password(self):
+        &#34;&#34;&#34;
+        returns both sender_email and password
+        &#34;&#34;&#34;
+        return self.sender_email, self.password
+
+    def SmtpServer(self):
+        &#34;&#34;&#34;
+        returns smtp sever as string
+        &#34;&#34;&#34;
+        return self.smtp_server
+
+
+
+class Projects:
+
+    &#34;&#34;&#34;
+    Class used for setting up Projects and SubTasks
+
+    ...
+
+    Attributes
+    ----------
+    csv_file_projects : csv_file
+        csv_file containing project data
+    csv_file_subtasks : csv_file
+        csv_file_subtasks containing subtasks data
+
+    Methods
+    -------
+    fetch_data_locally_projects()
+        read in local data from csv file for projects tab and return dataframe
+
+    fetch_data_locally_subtasks()
+        read in local data from csv file for subtasks tab and return dataframe
+
+    update_data_in_memory()
+        update in-memory database using df
+
+    read_data_database()
+        read in data from in-memory database using table name
+
+    update_data_csv()
+        update local csv file
+
+
+    &#34;&#34;&#34;
+
+
+    def __init__(self, csv_file_projects, csv_file_subtasks):
+        &#34;&#34;&#34;
+        Attributes
+        ----------
+        csv_file_projects : csv_file
+            csv_file containing project data
+        csv_file_subtasks : csv_file
+            csv_file_subtasks containing subtasks data
+        &#34;&#34;&#34;
+
+        self.csv_file_projects = csv_file_projects
+        self.csv_file_subtasks = csv_file_subtasks
+
+    def fetch_data_locally_projects(self):
+        &#34;&#34;&#34;
+        read in local data from csv file for projects tab and return dataframe
+
+        &#34;&#34;&#34;
+        df = pd.read_csv(self.csv_file_projects)
+        return df
+
+    def fetch_data_locally_subtasks(self):
+        &#39;&#39;&#39;
+        read in local data from csv file for subtasks tab and return dataframe
+
+        &#39;&#39;&#39;
+        df = pd.read_csv(self.csv_file_subtasks, index_col=0)
+        return df
+
+    def update_data_in_memory(self, df_local, table_db):
+        &#39;&#39;&#39;
+        update in-memory database using df
+
+        Parameters
+        ----------
+        df_local : array
+            array of users choice converted to df
+        table_db: string
+            string containing table name to be uploaded to in-memory database
+
+        &#39;&#39;&#39;
+
+        self.df_local = df_local
+        self.table_db = table_db
+        pd.DataFrame(self.df_local).to_sql(self.table_db, con=engine, if_exists=&#39;replace&#39;)
+
+    def read_data_in_memory(self, tablename):
+        &#39;&#39;&#39;
+        read in data from in-memory database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be read from in-memory database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        datatable = engine.execute(f&#34;SELECT * FROM {tablename}&#34;).fetchall()
+        return datatable
+
+    def upload_data_local_database(self, tablename, df, conn):
+        &#39;&#39;&#39;
+        upload data from local database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be uploaded to local database
+        df: datagrame
+            dataframe of users choice
+        conn: object
+            connection for sqllite database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        self.df = df
+        self.conn = conn
+        self.df = pd.DataFrame(self.df)
+        self.df = self.df.reset_index(drop=True)
+        self.df.to_sql(self.tablename, self.conn, if_exists=&#34;replace&#34;, index=False)
+        self.conn.commit()
+        self.conn.close()
+
+    def read_data_local_database(self, tablename, conn):
+        &#39;&#39;&#39;
+        read in data from local database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be uploaded to local database
+        df: datagrame
+            dataframe of users choice
+        conn: object
+            connection for sqllite database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        self.conn = conn
+        df = pd.read_sql_query(f&#34;SELECT * FROM {tablename};&#34;, conn)
+        self.conn.commit()
+        self.conn.close()
+        return df
+
+
+
+
+    def update_data_csv(self, df_local, csv_file,index):
+        &#39;&#39;&#39;
+        update csv file using df
+
+        Parameters
+        ----------
+        df_local : dataframe
+            array of users choice converted to df
+        csv: string
+            csv_file of users choice to update
+        index: bool
+            whether index is kept or not for csv file
+        &#39;&#39;&#39;
+        self.df_local = df_local
+        self.csv_file = csv_file
+        self.index = index
+        df = pd.DataFrame(self.df_local)
+        df = df.reset_index(drop=True)
+        df.to_csv(self.csv_file,index=self.index)
+
+
+
+
+
+class Employee:
+
+        &#34;&#34;&#34;
+        Class used for setting up Employee Details
+
+        ...
+
+        Attributes
+        ----------
+        username : string
+            username for individual in organisation e.g. A1, M1, E1
+        password : str
+            username for individual in organisation
+        email : str
+            email for respective username
+        firstname : str
+            firstname for respective user e.g. John
+        lastname : str
+            lastname for respective user e.g. Smith
+        job : str
+            Job title for respective user e.g. Data Scientist
+
+
+        Methods
+        -------
+        GetUserName()
+            return username
+
+        GetPassword()
+            return password for respective username
+
+        GetEmail()
+            return email for respective username
+
+        GetStatus()
+            return status as bool true or false to determine whether they have admin/manager access or not
+
+        GetStatusCard()
+            return status as string, either as &#39;Manager&#39;, &#39;Admin&#39; or &#39;Employee&#39;
+
+        GetName()
+            return concatenation of first and last name
+
+        GetJob()
+            return job title of respective name
+
+        &#34;&#34;&#34;
+
+        def __init__(self, username, password, email, firstname, lastname, job):
+
+            &#39;&#39;&#39;
+            Parameters
+            ----------
+            username : string
+                username for individual in organisation e.g. A1, M1, E1
+            password : str
+                username for individual in organisation
+            email : str
+                email for respective username
+            firstname : str
+                firstname for respective user e.g. John
+            lastname : str
+                lastname for respective user e.g. Smith
+            job : str
+                Job title for respective user e.g. Data Scientist
+
+            &#39;&#39;&#39;
+            self.username = username
+            self.password = password
+            self.email = email
+            self.job = job
+            self.firstname = firstname
+            self.lastname = lastname
+
+
+        def GetUserName(self):
+            &#39;&#39;&#39;
+            return username
+            &#39;&#39;&#39;
+            return self.username
+
+        def GetPassword(self):
+            &#39;&#39;&#39;
+            return password for respective username
+            &#39;&#39;&#39;
+            return self.password
+
+        def GetEmail(self):
+            &#39;&#39;&#39;
+            return email for respective username
+            &#39;&#39;&#39;
+            return self.email
+
+        def GetStatus(self):
+            &#39;&#39;&#39;
+            return status as bool true or false to determine whether they have admin/manager access or not
+            &#39;&#39;&#39;
+            if &#39;A&#39; in self.username:
+                Access = True
+            elif &#39;M&#39; in self.username:
+                Access = True
+            else:
+                Access = False
+            return Access
+
+        def GetStatusCard(self):
+            &#39;&#39;&#39;
+            return status as string, either as &#39;Manager&#39;, &#39;Admin&#39; or &#39;Employee&#39;
+            &#39;&#39;&#39;
+            if &#39;A&#39; in self.username:
+                StatusCard = &#39;Admin&#39;
+            elif &#39;M&#39; in self.username:
+                StatusCard = &#39;Manager&#39;
+            else:
+                StatusCard = &#39;Employee&#39;
+            return StatusCard
+
+        def GetName(self):
+            &#39;&#39;&#39;
+            return concatenation of first and last name
+            &#39;&#39;&#39;
+            full_name = &#34; &#34;.join([self.firstname, self.lastname])
+            return full_name
+
+        def GetJob(self):
+            &#39;&#39;&#39;
+            return job title of respective name
+            &#39;&#39;&#39;
+            return self.job
+
+
+
+
+# Create Dictionairy with GetUserName method and GetPassword method
+class CreatePairs:
+        &#34;&#34;&#34;
+        Class used for creating dictionaires for username to respective pair
+
+        ...
+
+        Attributes
+        ----------
+        Employee1 : object
+            sample employee for company
+        Employee2 : object
+            sample employee for company
+        Employee3 : object
+            sample employee for company
+        Employee4 : object
+            sample employee for company
+        Employee5 : object
+            sample employee for company
+        Employee6 : object
+            sample employee for company
+
+
+        Methods
+        -------
+        get_username_password_pair()
+            returns a dictionary of username as the key and passwords as the values for all employees
+
+        get_username_email_pairs()
+            returns a dictionary of username as the key and emails as the values for all employees
+
+        get_status_pairs()
+            returns a dictionary of username as the key and status as the values for all employees
+
+        get_status_card_pairs()
+            returns a dictionary of username as the key and status_cards as the values for all employees
+
+        get_name_pairs()
+            returns a dictionary of username as the key and first_name+last_name as the values for all employees
+
+        get_job_pairs()
+            returns a dictionary of username as the key and jobs as the values for all employees
+
+
+        &#34;&#34;&#34;
+
+
+        def __init__(self, Employee1, Employee2, Employee3, Employee4, Employee5, Employee6):
+            &#39;&#39;&#39;
+            Attributes
+            ----------
+            Employee1 : object
+                sample employee for company
+            Employee2 : object
+                sample employee for company
+            Employee3 : object
+                sample employee for company
+            Employee4 : object
+                sample employee for company
+            Employee5 : object
+                sample employee for company
+            Employee6 : object
+                sample employee for company
+            &#39;&#39;&#39;
+
+            self.Employee1 = Employee1
+            self.Employee2 = Employee2
+            self.Employee3 = Employee3
+            self.Employee4 = Employee4
+            self.Employee5 = Employee5
+            self.Employee6 = Employee6
+
+        def get_username_password_pair(self):
+
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and passwords as the values for all employees
+
+            &#39;&#39;&#39;
+            # Usernames beginning with A - Admin
+            # Usernames beginning with E - Employee
+            # Usernames begging with M - Manager
+            VALID_USERNAME_PASSWORD_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetPassword() ,
+                self.Employee2.GetUserName():self.Employee2.GetPassword() ,
+                self.Employee3.GetUserName():self.Employee3.GetPassword() ,
+                self.Employee4.GetUserName():self.Employee4.GetPassword() ,
+                self.Employee5.GetUserName():self.Employee5.GetPassword() ,
+                self.Employee6.GetUserName():self.Employee6.GetPassword()
+
+            }
+            return VALID_USERNAME_PASSWORD_PAIRS
+
+        def get_username_email_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and emails as the values for all employees
+
+            &#39;&#39;&#39;
+
+            EMAIL_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetEmail() ,
+                self.Employee2.GetUserName():self.Employee2.GetEmail() ,
+                self.Employee3.GetUserName():self.Employee3.GetEmail() ,
+                self.Employee4.GetUserName():self.Employee4.GetEmail() ,
+                self.Employee5.GetUserName():self.Employee5.GetEmail() ,
+                self.Employee6.GetUserName():self.Employee6.GetEmail()
+
+            }
+            return EMAIL_PAIRS
+
+        def get_status_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and status as the values for all employees
+
+            &#39;&#39;&#39;
+
+            STATUS_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetStatus() ,
+                self.Employee2.GetUserName():self.Employee2.GetStatus() ,
+                self.Employee3.GetUserName():self.Employee3.GetStatus() ,
+                self.Employee4.GetUserName():self.Employee4.GetStatus() ,
+                self.Employee5.GetUserName():self.Employee5.GetStatus() ,
+                self.Employee6.GetUserName():self.Employee6.GetStatus()
+
+            }
+            return STATUS_PAIRS
+
+
+        def get_status_card_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and status_cards as the values for all employees
+
+            &#39;&#39;&#39;
+            STATUS_CARD_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetStatusCard() ,
+                self.Employee2.GetUserName():self.Employee2.GetStatusCard() ,
+                self.Employee3.GetUserName():self.Employee3.GetStatusCard() ,
+                self.Employee4.GetUserName():self.Employee4.GetStatusCard() ,
+                self.Employee5.GetUserName():self.Employee5.GetStatusCard() ,
+                self.Employee6.GetUserName():self.Employee6.GetStatusCard()
+
+            }
+            return STATUS_CARD_PAIRS
+
+        def get_name_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and first_name+last_name as the values for all employees
+            &#39;&#39;&#39;
+            NAME_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetName() ,
+                self.Employee2.GetUserName():self.Employee2.GetName() ,
+                self.Employee3.GetUserName():self.Employee3.GetName() ,
+                self.Employee4.GetUserName():self.Employee4.GetName() ,
+                self.Employee5.GetUserName():self.Employee5.GetName() ,
+                self.Employee6.GetUserName():self.Employee6.GetName()
+
+            }
+            return NAME_PAIRS
+
+        def get_job_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and jobs as the values for all employees
+
+            &#39;&#39;&#39;
+            JOB_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetJob(),
+                self.Employee2.GetUserName():self.Employee2.GetJob(),
+                self.Employee3.GetUserName():self.Employee3.GetJob(),
+                self.Employee4.GetUserName():self.Employee4.GetJob(),
+                self.Employee5.GetUserName():self.Employee5.GetJob(),
+                self.Employee6.GetUserName():self.Employee6.GetJob()
+
+            }
+            return JOB_PAIRS
+
+
+
+
+class CreateGUI:
+        &#34;&#34;&#34;
+        Class used for setting up the GUI in Plotly Dash &amp; LogIn Authentcation
+
+        ...
+
+        Attributes
+        ----------
+        VALID_USERNAME_PASSWORD_PAIRS : dict
+            valid usernames for log-in authentication
+        title : str
+            title of the project
+        external_stylesheets : list
+            external_stylesheets used to style plotly dash app
+
+
+        Methods
+        -------
+        create_gui()
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+
+        log_in()
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+
+        &#34;&#34;&#34;
+
+
+        def __init__(self, VALID_USERNAME_PASSWORD_PAIRS, title, external_stylesheets):
+            &#39;&#39;&#39;
+            Parameters
+            ----------
+            VALID_USERNAME_PASSWORD_PAIRS : dict
+                valid usernames for log-in authentication
+            title : str
+                title of the project
+            external_stylesheets : list
+                external_stylesheets used to style plotly dash app
+
+            &#39;&#39;&#39;
+            self.VALID_USERNAME_PASSWORD_PAIRS = VALID_USERNAME_PASSWORD_PAIRS
+            self.title = title
+            self.external_stylesheets = external_stylesheets
+
+        def create_gui(self):
+            &#39;&#39;&#39;
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+            &#39;&#39;&#39;
+            app = dash.Dash(__name__, external_stylesheets=self.external_stylesheets, title=self.title)
+            return app
+
+        def log_in(self, app):
+            &#39;&#39;&#39;
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+            Parameters
+            ----------
+            app : dash.Dash
+                Dash app that has been created
+
+            &#39;&#39;&#39;
+            self.app = app
+            auth = dash_auth.BasicAuth(
+                self.app,
+                self.VALID_USERNAME_PASSWORD_PAIRS
+            )
+            return auth
+
+class CreateGUI:
+        &#34;&#34;&#34;
+        Class used for setting up the GUI in Plotly Dash &amp; LogIn Authentcation
+
+        ...
+
+        Attributes
+        ----------
+        VALID_USERNAME_PASSWORD_PAIRS : dict
+            valid usernames for log-in authentication
+        title : str
+            title of the project
+        external_stylesheets : list
+            external_stylesheets used to style plotly dash app
+
+
+        Methods
+        -------
+        create_gui()
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+
+        log_in()
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+
+        &#34;&#34;&#34;
+
+
+        def __init__(self, VALID_USERNAME_PASSWORD_PAIRS, title, external_stylesheets):
+            &#39;&#39;&#39;
+            Parameters
+            ----------
+            VALID_USERNAME_PASSWORD_PAIRS : dict
+                valid usernames for log-in authentication
+            title : str
+                title of the project
+            external_stylesheets : list
+                external_stylesheets used to style plotly dash app
+
+            &#39;&#39;&#39;
+            self.VALID_USERNAME_PASSWORD_PAIRS = VALID_USERNAME_PASSWORD_PAIRS
+            self.title = title
+            self.external_stylesheets = external_stylesheets
+
+        def create_gui(self):
+            &#39;&#39;&#39;
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+            &#39;&#39;&#39;
+            app = dash.Dash(__name__, external_stylesheets=self.external_stylesheets, title=self.title)
+            return app
+
+        def log_in(self, app):
+            &#39;&#39;&#39;
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+            Parameters
+            ----------
+            app : dash.Dash
+                Dash app that has been created
+
+            &#39;&#39;&#39;
+            self.app = app
+            auth = dash_auth.BasicAuth(
+                self.app,
+                self.VALID_USERNAME_PASSWORD_PAIRS
+            )
+            return auth</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="classes.CreateGUI"><code class="flex name class">
+<span>class <span class="ident">CreateGUI</span></span>
+<span>(</span><span>VALID_USERNAME_PASSWORD_PAIRS, title, external_stylesheets)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Class used for setting up the GUI in Plotly Dash &amp; LogIn Authentcation</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>VALID_USERNAME_PASSWORD_PAIRS</code></strong> :&ensp;<code>dict</code></dt>
+<dd>valid usernames for log-in authentication</dd>
+<dt><strong><code>title</code></strong> :&ensp;<code>str</code></dt>
+<dd>title of the project</dd>
+<dt><strong><code>external_stylesheets</code></strong> :&ensp;<code>list</code></dt>
+<dd>external_stylesheets used to style plotly dash app</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>create_gui()
+used to create the base plotly dash app, with title of gui &amp; the external stylesheets</p>
+<p>log_in()
+used to pass through the password/username dictionary that will allow user to log-in to the gui</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>VALID_USERNAME_PASSWORD_PAIRS</code></strong> :&ensp;<code>dict</code></dt>
+<dd>valid usernames for log-in authentication</dd>
+<dt><strong><code>title</code></strong> :&ensp;<code>str</code></dt>
+<dd>title of the project</dd>
+<dt><strong><code>external_stylesheets</code></strong> :&ensp;<code>list</code></dt>
+<dd>external_stylesheets used to style plotly dash app</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class CreateGUI:
+        &#34;&#34;&#34;
+        Class used for setting up the GUI in Plotly Dash &amp; LogIn Authentcation
+
+        ...
+
+        Attributes
+        ----------
+        VALID_USERNAME_PASSWORD_PAIRS : dict
+            valid usernames for log-in authentication
+        title : str
+            title of the project
+        external_stylesheets : list
+            external_stylesheets used to style plotly dash app
+
+
+        Methods
+        -------
+        create_gui()
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+
+        log_in()
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+
+        &#34;&#34;&#34;
+
+
+        def __init__(self, VALID_USERNAME_PASSWORD_PAIRS, title, external_stylesheets):
+            &#39;&#39;&#39;
+            Parameters
+            ----------
+            VALID_USERNAME_PASSWORD_PAIRS : dict
+                valid usernames for log-in authentication
+            title : str
+                title of the project
+            external_stylesheets : list
+                external_stylesheets used to style plotly dash app
+
+            &#39;&#39;&#39;
+            self.VALID_USERNAME_PASSWORD_PAIRS = VALID_USERNAME_PASSWORD_PAIRS
+            self.title = title
+            self.external_stylesheets = external_stylesheets
+
+        def create_gui(self):
+            &#39;&#39;&#39;
+            used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+            &#39;&#39;&#39;
+            app = dash.Dash(__name__, external_stylesheets=self.external_stylesheets, title=self.title)
+            return app
+
+        def log_in(self, app):
+            &#39;&#39;&#39;
+            used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+            Parameters
+            ----------
+            app : dash.Dash
+                Dash app that has been created
+
+            &#39;&#39;&#39;
+            self.app = app
+            auth = dash_auth.BasicAuth(
+                self.app,
+                self.VALID_USERNAME_PASSWORD_PAIRS
+            )
+            return auth</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="classes.CreateGUI.create_gui"><code class="name flex">
+<span>def <span class="ident">create_gui</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>used to create the base plotly dash app, with title of gui &amp; the external stylesheets</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_gui(self):
+    &#39;&#39;&#39;
+    used to create the base plotly dash app, with title of gui &amp; the external stylesheets
+    &#39;&#39;&#39;
+    app = dash.Dash(__name__, external_stylesheets=self.external_stylesheets, title=self.title)
+    return app</code></pre>
+</details>
+</dd>
+<dt id="classes.CreateGUI.log_in"><code class="name flex">
+<span>def <span class="ident">log_in</span></span>(<span>self, app)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>used to pass through the password/username dictionary that will allow user to log-in to the gui</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>app</code></strong> :&ensp;<code>dash.Dash</code></dt>
+<dd>Dash app that has been created</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def log_in(self, app):
+    &#39;&#39;&#39;
+    used to pass through the password/username dictionary that will allow user to log-in to the gui
+
+    Parameters
+    ----------
+    app : dash.Dash
+        Dash app that has been created
+
+    &#39;&#39;&#39;
+    self.app = app
+    auth = dash_auth.BasicAuth(
+        self.app,
+        self.VALID_USERNAME_PASSWORD_PAIRS
+    )
+    return auth</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="classes.CreatePairs"><code class="flex name class">
+<span>class <span class="ident">CreatePairs</span></span>
+<span>(</span><span>Employee1, Employee2, Employee3, Employee4, Employee5, Employee6)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Class used for creating dictionaires for username to respective pair</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>Employee1</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee2</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee3</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee4</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee5</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee6</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>get_username_password_pair()
+returns a dictionary of username as the key and passwords as the values for all employees</p>
+<p>get_username_email_pairs()
+returns a dictionary of username as the key and emails as the values for all employees</p>
+<p>get_status_pairs()
+returns a dictionary of username as the key and status as the values for all employees</p>
+<p>get_status_card_pairs()
+returns a dictionary of username as the key and status_cards as the values for all employees</p>
+<p>get_name_pairs()
+returns a dictionary of username as the key and first_name+last_name as the values for all employees</p>
+<p>get_job_pairs()
+returns a dictionary of username as the key and jobs as the values for all employees</p>
+<h2 id="attributes_1">Attributes</h2>
+<dl>
+<dt><strong><code>Employee1</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee2</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee3</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee4</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee5</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+<dt><strong><code>Employee6</code></strong> :&ensp;<code>object</code></dt>
+<dd>sample employee for company</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class CreatePairs:
+        &#34;&#34;&#34;
+        Class used for creating dictionaires for username to respective pair
+
+        ...
+
+        Attributes
+        ----------
+        Employee1 : object
+            sample employee for company
+        Employee2 : object
+            sample employee for company
+        Employee3 : object
+            sample employee for company
+        Employee4 : object
+            sample employee for company
+        Employee5 : object
+            sample employee for company
+        Employee6 : object
+            sample employee for company
+
+
+        Methods
+        -------
+        get_username_password_pair()
+            returns a dictionary of username as the key and passwords as the values for all employees
+
+        get_username_email_pairs()
+            returns a dictionary of username as the key and emails as the values for all employees
+
+        get_status_pairs()
+            returns a dictionary of username as the key and status as the values for all employees
+
+        get_status_card_pairs()
+            returns a dictionary of username as the key and status_cards as the values for all employees
+
+        get_name_pairs()
+            returns a dictionary of username as the key and first_name+last_name as the values for all employees
+
+        get_job_pairs()
+            returns a dictionary of username as the key and jobs as the values for all employees
+
+
+        &#34;&#34;&#34;
+
+
+        def __init__(self, Employee1, Employee2, Employee3, Employee4, Employee5, Employee6):
+            &#39;&#39;&#39;
+            Attributes
+            ----------
+            Employee1 : object
+                sample employee for company
+            Employee2 : object
+                sample employee for company
+            Employee3 : object
+                sample employee for company
+            Employee4 : object
+                sample employee for company
+            Employee5 : object
+                sample employee for company
+            Employee6 : object
+                sample employee for company
+            &#39;&#39;&#39;
+
+            self.Employee1 = Employee1
+            self.Employee2 = Employee2
+            self.Employee3 = Employee3
+            self.Employee4 = Employee4
+            self.Employee5 = Employee5
+            self.Employee6 = Employee6
+
+        def get_username_password_pair(self):
+
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and passwords as the values for all employees
+
+            &#39;&#39;&#39;
+            # Usernames beginning with A - Admin
+            # Usernames beginning with E - Employee
+            # Usernames begging with M - Manager
+            VALID_USERNAME_PASSWORD_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetPassword() ,
+                self.Employee2.GetUserName():self.Employee2.GetPassword() ,
+                self.Employee3.GetUserName():self.Employee3.GetPassword() ,
+                self.Employee4.GetUserName():self.Employee4.GetPassword() ,
+                self.Employee5.GetUserName():self.Employee5.GetPassword() ,
+                self.Employee6.GetUserName():self.Employee6.GetPassword()
+
+            }
+            return VALID_USERNAME_PASSWORD_PAIRS
+
+        def get_username_email_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and emails as the values for all employees
+
+            &#39;&#39;&#39;
+
+            EMAIL_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetEmail() ,
+                self.Employee2.GetUserName():self.Employee2.GetEmail() ,
+                self.Employee3.GetUserName():self.Employee3.GetEmail() ,
+                self.Employee4.GetUserName():self.Employee4.GetEmail() ,
+                self.Employee5.GetUserName():self.Employee5.GetEmail() ,
+                self.Employee6.GetUserName():self.Employee6.GetEmail()
+
+            }
+            return EMAIL_PAIRS
+
+        def get_status_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and status as the values for all employees
+
+            &#39;&#39;&#39;
+
+            STATUS_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetStatus() ,
+                self.Employee2.GetUserName():self.Employee2.GetStatus() ,
+                self.Employee3.GetUserName():self.Employee3.GetStatus() ,
+                self.Employee4.GetUserName():self.Employee4.GetStatus() ,
+                self.Employee5.GetUserName():self.Employee5.GetStatus() ,
+                self.Employee6.GetUserName():self.Employee6.GetStatus()
+
+            }
+            return STATUS_PAIRS
+
+
+        def get_status_card_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and status_cards as the values for all employees
+
+            &#39;&#39;&#39;
+            STATUS_CARD_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetStatusCard() ,
+                self.Employee2.GetUserName():self.Employee2.GetStatusCard() ,
+                self.Employee3.GetUserName():self.Employee3.GetStatusCard() ,
+                self.Employee4.GetUserName():self.Employee4.GetStatusCard() ,
+                self.Employee5.GetUserName():self.Employee5.GetStatusCard() ,
+                self.Employee6.GetUserName():self.Employee6.GetStatusCard()
+
+            }
+            return STATUS_CARD_PAIRS
+
+        def get_name_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and first_name+last_name as the values for all employees
+            &#39;&#39;&#39;
+            NAME_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetName() ,
+                self.Employee2.GetUserName():self.Employee2.GetName() ,
+                self.Employee3.GetUserName():self.Employee3.GetName() ,
+                self.Employee4.GetUserName():self.Employee4.GetName() ,
+                self.Employee5.GetUserName():self.Employee5.GetName() ,
+                self.Employee6.GetUserName():self.Employee6.GetName()
+
+            }
+            return NAME_PAIRS
+
+        def get_job_pairs(self):
+            &#39;&#39;&#39;
+            returns a dictionary of username as the key and jobs as the values for all employees
+
+            &#39;&#39;&#39;
+            JOB_PAIRS = {
+                self.Employee1.GetUserName():self.Employee1.GetJob(),
+                self.Employee2.GetUserName():self.Employee2.GetJob(),
+                self.Employee3.GetUserName():self.Employee3.GetJob(),
+                self.Employee4.GetUserName():self.Employee4.GetJob(),
+                self.Employee5.GetUserName():self.Employee5.GetJob(),
+                self.Employee6.GetUserName():self.Employee6.GetJob()
+
+            }
+            return JOB_PAIRS</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="classes.CreatePairs.get_job_pairs"><code class="name flex">
+<span>def <span class="ident">get_job_pairs</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and jobs as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_job_pairs(self):
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and jobs as the values for all employees
+
+    &#39;&#39;&#39;
+    JOB_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetJob(),
+        self.Employee2.GetUserName():self.Employee2.GetJob(),
+        self.Employee3.GetUserName():self.Employee3.GetJob(),
+        self.Employee4.GetUserName():self.Employee4.GetJob(),
+        self.Employee5.GetUserName():self.Employee5.GetJob(),
+        self.Employee6.GetUserName():self.Employee6.GetJob()
+
+    }
+    return JOB_PAIRS</code></pre>
+</details>
+</dd>
+<dt id="classes.CreatePairs.get_name_pairs"><code class="name flex">
+<span>def <span class="ident">get_name_pairs</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and first_name+last_name as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_name_pairs(self):
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and first_name+last_name as the values for all employees
+    &#39;&#39;&#39;
+    NAME_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetName() ,
+        self.Employee2.GetUserName():self.Employee2.GetName() ,
+        self.Employee3.GetUserName():self.Employee3.GetName() ,
+        self.Employee4.GetUserName():self.Employee4.GetName() ,
+        self.Employee5.GetUserName():self.Employee5.GetName() ,
+        self.Employee6.GetUserName():self.Employee6.GetName()
+
+    }
+    return NAME_PAIRS</code></pre>
+</details>
+</dd>
+<dt id="classes.CreatePairs.get_status_card_pairs"><code class="name flex">
+<span>def <span class="ident">get_status_card_pairs</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and status_cards as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_status_card_pairs(self):
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and status_cards as the values for all employees
+
+    &#39;&#39;&#39;
+    STATUS_CARD_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetStatusCard() ,
+        self.Employee2.GetUserName():self.Employee2.GetStatusCard() ,
+        self.Employee3.GetUserName():self.Employee3.GetStatusCard() ,
+        self.Employee4.GetUserName():self.Employee4.GetStatusCard() ,
+        self.Employee5.GetUserName():self.Employee5.GetStatusCard() ,
+        self.Employee6.GetUserName():self.Employee6.GetStatusCard()
+
+    }
+    return STATUS_CARD_PAIRS</code></pre>
+</details>
+</dd>
+<dt id="classes.CreatePairs.get_status_pairs"><code class="name flex">
+<span>def <span class="ident">get_status_pairs</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and status as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_status_pairs(self):
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and status as the values for all employees
+
+    &#39;&#39;&#39;
+
+    STATUS_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetStatus() ,
+        self.Employee2.GetUserName():self.Employee2.GetStatus() ,
+        self.Employee3.GetUserName():self.Employee3.GetStatus() ,
+        self.Employee4.GetUserName():self.Employee4.GetStatus() ,
+        self.Employee5.GetUserName():self.Employee5.GetStatus() ,
+        self.Employee6.GetUserName():self.Employee6.GetStatus()
+
+    }
+    return STATUS_PAIRS</code></pre>
+</details>
+</dd>
+<dt id="classes.CreatePairs.get_username_email_pairs"><code class="name flex">
+<span>def <span class="ident">get_username_email_pairs</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and emails as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_username_email_pairs(self):
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and emails as the values for all employees
+
+    &#39;&#39;&#39;
+
+    EMAIL_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetEmail() ,
+        self.Employee2.GetUserName():self.Employee2.GetEmail() ,
+        self.Employee3.GetUserName():self.Employee3.GetEmail() ,
+        self.Employee4.GetUserName():self.Employee4.GetEmail() ,
+        self.Employee5.GetUserName():self.Employee5.GetEmail() ,
+        self.Employee6.GetUserName():self.Employee6.GetEmail()
+
+    }
+    return EMAIL_PAIRS</code></pre>
+</details>
+</dd>
+<dt id="classes.CreatePairs.get_username_password_pair"><code class="name flex">
+<span>def <span class="ident">get_username_password_pair</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns a dictionary of username as the key and passwords as the values for all employees</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_username_password_pair(self):
+
+    &#39;&#39;&#39;
+    returns a dictionary of username as the key and passwords as the values for all employees
+
+    &#39;&#39;&#39;
+    # Usernames beginning with A - Admin
+    # Usernames beginning with E - Employee
+    # Usernames begging with M - Manager
+    VALID_USERNAME_PASSWORD_PAIRS = {
+        self.Employee1.GetUserName():self.Employee1.GetPassword() ,
+        self.Employee2.GetUserName():self.Employee2.GetPassword() ,
+        self.Employee3.GetUserName():self.Employee3.GetPassword() ,
+        self.Employee4.GetUserName():self.Employee4.GetPassword() ,
+        self.Employee5.GetUserName():self.Employee5.GetPassword() ,
+        self.Employee6.GetUserName():self.Employee6.GetPassword()
+
+    }
+    return VALID_USERNAME_PASSWORD_PAIRS</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="classes.Email"><code class="flex name class">
+<span>class <span class="ident">Email</span></span>
+<span>(</span><span>port, smtp_server, sender_email, password)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Class used for setting up the connection to send emails after updating
+SubTasks or Projects Data Table</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>port</code></strong> :&ensp;<code>int</code></dt>
+<dd>port for email connection</dd>
+<dt><strong><code>smtp_server</code></strong> :&ensp;<code>str</code></dt>
+<dd>internet standard communication protcol for email</dd>
+<dt><strong><code>sender_email</code></strong> :&ensp;<code>str</code></dt>
+<dd>email used to send our automated emails</dd>
+<dt><strong><code>password</code></strong> :&ensp;<code>str</code></dt>
+<dd>password for sender_email</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>GetPort()
+return the port as an int</p>
+<p>SenderEmail_Password()
+returns both sender_email and password</p>
+<p>smtp_server()
+returns smtp sever as string</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Email:
+
+    &#34;&#34;&#34;
+    Class used for setting up the connection to send emails after updating
+    SubTasks or Projects Data Table
+
+    ...
+
+    Attributes
+    ----------
+    port : int
+        port for email connection
+    smtp_server : str
+        internet standard communication protcol for email
+    sender_email : str
+        email used to send our automated emails
+    password : str
+        password for sender_email
+
+    Methods
+    -------
+    GetPort()
+        return the port as an int
+
+    SenderEmail_Password()
+        returns both sender_email and password
+
+    smtp_server()
+        returns smtp sever as string
+    &#34;&#34;&#34;
+
+
+    def __init__(self, port, smtp_server, sender_email, password):
+        self.port = port
+        self.smtp_server = smtp_server
+        self.sender_email = sender_email
+        self.password = password
+    def GetPort(self):
+        &#34;&#34;&#34;
+        return the port as an int
+        &#34;&#34;&#34;
+
+
+        return self.port
+
+    def SenderEmail_Password(self):
+        &#34;&#34;&#34;
+        returns both sender_email and password
+        &#34;&#34;&#34;
+        return self.sender_email, self.password
+
+    def SmtpServer(self):
+        &#34;&#34;&#34;
+        returns smtp sever as string
+        &#34;&#34;&#34;
+        return self.smtp_server</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="classes.Email.GetPort"><code class="name flex">
+<span>def <span class="ident">GetPort</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return the port as an int</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetPort(self):
+    &#34;&#34;&#34;
+    return the port as an int
+    &#34;&#34;&#34;
+
+
+    return self.port</code></pre>
+</details>
+</dd>
+<dt id="classes.Email.SenderEmail_Password"><code class="name flex">
+<span>def <span class="ident">SenderEmail_Password</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns both sender_email and password</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def SenderEmail_Password(self):
+    &#34;&#34;&#34;
+    returns both sender_email and password
+    &#34;&#34;&#34;
+    return self.sender_email, self.password</code></pre>
+</details>
+</dd>
+<dt id="classes.Email.SmtpServer"><code class="name flex">
+<span>def <span class="ident">SmtpServer</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>returns smtp sever as string</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def SmtpServer(self):
+    &#34;&#34;&#34;
+    returns smtp sever as string
+    &#34;&#34;&#34;
+    return self.smtp_server</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="classes.Employee"><code class="flex name class">
+<span>class <span class="ident">Employee</span></span>
+<span>(</span><span>username, password, email, firstname, lastname, job)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Class used for setting up Employee Details</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>username</code></strong> :&ensp;<code>string</code></dt>
+<dd>username for individual in organisation e.g. A1, M1, E1</dd>
+<dt><strong><code>password</code></strong> :&ensp;<code>str</code></dt>
+<dd>username for individual in organisation</dd>
+<dt><strong><code>email</code></strong> :&ensp;<code>str</code></dt>
+<dd>email for respective username</dd>
+<dt><strong><code>firstname</code></strong> :&ensp;<code>str</code></dt>
+<dd>firstname for respective user e.g. John</dd>
+<dt><strong><code>lastname</code></strong> :&ensp;<code>str</code></dt>
+<dd>lastname for respective user e.g. Smith</dd>
+<dt><strong><code>job</code></strong> :&ensp;<code>str</code></dt>
+<dd>Job title for respective user e.g. Data Scientist</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>GetUserName()
+return username</p>
+<p>GetPassword()
+return password for respective username</p>
+<p>GetEmail()
+return email for respective username</p>
+<p>GetStatus()
+return status as bool true or false to determine whether they have admin/manager access or not</p>
+<p>GetStatusCard()
+return status as string, either as 'Manager', 'Admin' or 'Employee'</p>
+<p>GetName()
+return concatenation of first and last name</p>
+<p>GetJob()
+return job title of respective name</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>username</code></strong> :&ensp;<code>string</code></dt>
+<dd>username for individual in organisation e.g. A1, M1, E1</dd>
+<dt><strong><code>password</code></strong> :&ensp;<code>str</code></dt>
+<dd>username for individual in organisation</dd>
+<dt><strong><code>email</code></strong> :&ensp;<code>str</code></dt>
+<dd>email for respective username</dd>
+<dt><strong><code>firstname</code></strong> :&ensp;<code>str</code></dt>
+<dd>firstname for respective user e.g. John</dd>
+<dt><strong><code>lastname</code></strong> :&ensp;<code>str</code></dt>
+<dd>lastname for respective user e.g. Smith</dd>
+<dt><strong><code>job</code></strong> :&ensp;<code>str</code></dt>
+<dd>Job title for respective user e.g. Data Scientist</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Employee:
+
+        &#34;&#34;&#34;
+        Class used for setting up Employee Details
+
+        ...
+
+        Attributes
+        ----------
+        username : string
+            username for individual in organisation e.g. A1, M1, E1
+        password : str
+            username for individual in organisation
+        email : str
+            email for respective username
+        firstname : str
+            firstname for respective user e.g. John
+        lastname : str
+            lastname for respective user e.g. Smith
+        job : str
+            Job title for respective user e.g. Data Scientist
+
+
+        Methods
+        -------
+        GetUserName()
+            return username
+
+        GetPassword()
+            return password for respective username
+
+        GetEmail()
+            return email for respective username
+
+        GetStatus()
+            return status as bool true or false to determine whether they have admin/manager access or not
+
+        GetStatusCard()
+            return status as string, either as &#39;Manager&#39;, &#39;Admin&#39; or &#39;Employee&#39;
+
+        GetName()
+            return concatenation of first and last name
+
+        GetJob()
+            return job title of respective name
+
+        &#34;&#34;&#34;
+
+        def __init__(self, username, password, email, firstname, lastname, job):
+
+            &#39;&#39;&#39;
+            Parameters
+            ----------
+            username : string
+                username for individual in organisation e.g. A1, M1, E1
+            password : str
+                username for individual in organisation
+            email : str
+                email for respective username
+            firstname : str
+                firstname for respective user e.g. John
+            lastname : str
+                lastname for respective user e.g. Smith
+            job : str
+                Job title for respective user e.g. Data Scientist
+
+            &#39;&#39;&#39;
+            self.username = username
+            self.password = password
+            self.email = email
+            self.job = job
+            self.firstname = firstname
+            self.lastname = lastname
+
+
+        def GetUserName(self):
+            &#39;&#39;&#39;
+            return username
+            &#39;&#39;&#39;
+            return self.username
+
+        def GetPassword(self):
+            &#39;&#39;&#39;
+            return password for respective username
+            &#39;&#39;&#39;
+            return self.password
+
+        def GetEmail(self):
+            &#39;&#39;&#39;
+            return email for respective username
+            &#39;&#39;&#39;
+            return self.email
+
+        def GetStatus(self):
+            &#39;&#39;&#39;
+            return status as bool true or false to determine whether they have admin/manager access or not
+            &#39;&#39;&#39;
+            if &#39;A&#39; in self.username:
+                Access = True
+            elif &#39;M&#39; in self.username:
+                Access = True
+            else:
+                Access = False
+            return Access
+
+        def GetStatusCard(self):
+            &#39;&#39;&#39;
+            return status as string, either as &#39;Manager&#39;, &#39;Admin&#39; or &#39;Employee&#39;
+            &#39;&#39;&#39;
+            if &#39;A&#39; in self.username:
+                StatusCard = &#39;Admin&#39;
+            elif &#39;M&#39; in self.username:
+                StatusCard = &#39;Manager&#39;
+            else:
+                StatusCard = &#39;Employee&#39;
+            return StatusCard
+
+        def GetName(self):
+            &#39;&#39;&#39;
+            return concatenation of first and last name
+            &#39;&#39;&#39;
+            full_name = &#34; &#34;.join([self.firstname, self.lastname])
+            return full_name
+
+        def GetJob(self):
+            &#39;&#39;&#39;
+            return job title of respective name
+            &#39;&#39;&#39;
+            return self.job</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="classes.Employee.GetEmail"><code class="name flex">
+<span>def <span class="ident">GetEmail</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return email for respective username</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetEmail(self):
+    &#39;&#39;&#39;
+    return email for respective username
+    &#39;&#39;&#39;
+    return self.email</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetJob"><code class="name flex">
+<span>def <span class="ident">GetJob</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return job title of respective name</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetJob(self):
+    &#39;&#39;&#39;
+    return job title of respective name
+    &#39;&#39;&#39;
+    return self.job</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetName"><code class="name flex">
+<span>def <span class="ident">GetName</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return concatenation of first and last name</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetName(self):
+    &#39;&#39;&#39;
+    return concatenation of first and last name
+    &#39;&#39;&#39;
+    full_name = &#34; &#34;.join([self.firstname, self.lastname])
+    return full_name</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetPassword"><code class="name flex">
+<span>def <span class="ident">GetPassword</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return password for respective username</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetPassword(self):
+    &#39;&#39;&#39;
+    return password for respective username
+    &#39;&#39;&#39;
+    return self.password</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetStatus"><code class="name flex">
+<span>def <span class="ident">GetStatus</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return status as bool true or false to determine whether they have admin/manager access or not</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetStatus(self):
+    &#39;&#39;&#39;
+    return status as bool true or false to determine whether they have admin/manager access or not
+    &#39;&#39;&#39;
+    if &#39;A&#39; in self.username:
+        Access = True
+    elif &#39;M&#39; in self.username:
+        Access = True
+    else:
+        Access = False
+    return Access</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetStatusCard"><code class="name flex">
+<span>def <span class="ident">GetStatusCard</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return status as string, either as 'Manager', 'Admin' or 'Employee'</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetStatusCard(self):
+    &#39;&#39;&#39;
+    return status as string, either as &#39;Manager&#39;, &#39;Admin&#39; or &#39;Employee&#39;
+    &#39;&#39;&#39;
+    if &#39;A&#39; in self.username:
+        StatusCard = &#39;Admin&#39;
+    elif &#39;M&#39; in self.username:
+        StatusCard = &#39;Manager&#39;
+    else:
+        StatusCard = &#39;Employee&#39;
+    return StatusCard</code></pre>
+</details>
+</dd>
+<dt id="classes.Employee.GetUserName"><code class="name flex">
+<span>def <span class="ident">GetUserName</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>return username</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def GetUserName(self):
+    &#39;&#39;&#39;
+    return username
+    &#39;&#39;&#39;
+    return self.username</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="classes.Projects"><code class="flex name class">
+<span>class <span class="ident">Projects</span></span>
+<span>(</span><span>csv_file_projects, csv_file_subtasks)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Class used for setting up Projects and SubTasks</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>csv_file_projects</code></strong> :&ensp;<code>csv_file</code></dt>
+<dd>csv_file containing project data</dd>
+<dt><strong><code>csv_file_subtasks</code></strong> :&ensp;<code>csv_file</code></dt>
+<dd>csv_file_subtasks containing subtasks data</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>fetch_data_locally_projects()
+read in local data from csv file for projects tab and return dataframe</p>
+<p>fetch_data_locally_subtasks()
+read in local data from csv file for subtasks tab and return dataframe</p>
+<p>update_data_in_memory()
+update in-memory database using df</p>
+<p>read_data_database()
+read in data from in-memory database using table name</p>
+<p>update_data_csv()
+update local csv file</p>
+<h2 id="attributes_1">Attributes</h2>
+<dl>
+<dt><strong><code>csv_file_projects</code></strong> :&ensp;<code>csv_file</code></dt>
+<dd>csv_file containing project data</dd>
+<dt><strong><code>csv_file_subtasks</code></strong> :&ensp;<code>csv_file</code></dt>
+<dd>csv_file_subtasks containing subtasks data</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Projects:
+
+    &#34;&#34;&#34;
+    Class used for setting up Projects and SubTasks
+
+    ...
+
+    Attributes
+    ----------
+    csv_file_projects : csv_file
+        csv_file containing project data
+    csv_file_subtasks : csv_file
+        csv_file_subtasks containing subtasks data
+
+    Methods
+    -------
+    fetch_data_locally_projects()
+        read in local data from csv file for projects tab and return dataframe
+
+    fetch_data_locally_subtasks()
+        read in local data from csv file for subtasks tab and return dataframe
+
+    update_data_in_memory()
+        update in-memory database using df
+
+    read_data_database()
+        read in data from in-memory database using table name
+
+    update_data_csv()
+        update local csv file
+
+
+    &#34;&#34;&#34;
+
+
+    def __init__(self, csv_file_projects, csv_file_subtasks):
+        &#34;&#34;&#34;
+        Attributes
+        ----------
+        csv_file_projects : csv_file
+            csv_file containing project data
+        csv_file_subtasks : csv_file
+            csv_file_subtasks containing subtasks data
+        &#34;&#34;&#34;
+
+        self.csv_file_projects = csv_file_projects
+        self.csv_file_subtasks = csv_file_subtasks
+
+    def fetch_data_locally_projects(self):
+        &#34;&#34;&#34;
+        read in local data from csv file for projects tab and return dataframe
+
+        &#34;&#34;&#34;
+        df = pd.read_csv(self.csv_file_projects)
+        return df
+
+    def fetch_data_locally_subtasks(self):
+        &#39;&#39;&#39;
+        read in local data from csv file for subtasks tab and return dataframe
+
+        &#39;&#39;&#39;
+        df = pd.read_csv(self.csv_file_subtasks, index_col=0)
+        return df
+
+    def update_data_in_memory(self, df_local, table_db):
+        &#39;&#39;&#39;
+        update in-memory database using df
+
+        Parameters
+        ----------
+        df_local : array
+            array of users choice converted to df
+        table_db: string
+            string containing table name to be uploaded to in-memory database
+
+        &#39;&#39;&#39;
+
+        self.df_local = df_local
+        self.table_db = table_db
+        pd.DataFrame(self.df_local).to_sql(self.table_db, con=engine, if_exists=&#39;replace&#39;)
+
+    def read_data_in_memory(self, tablename):
+        &#39;&#39;&#39;
+        read in data from in-memory database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be read from in-memory database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        datatable = engine.execute(f&#34;SELECT * FROM {tablename}&#34;).fetchall()
+        return datatable
+
+    def upload_data_local_database(self, tablename, df, conn):
+        &#39;&#39;&#39;
+        upload data from local database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be uploaded to local database
+        df: datagrame
+            dataframe of users choice
+        conn: object
+            connection for sqllite database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        self.df = df
+        self.conn = conn
+        self.df = pd.DataFrame(self.df)
+        self.df = self.df.reset_index(drop=True)
+        self.df.to_sql(self.tablename, self.conn, if_exists=&#34;replace&#34;, index=False)
+        self.conn.commit()
+        self.conn.close()
+
+    def read_data_local_database(self, tablename, conn):
+        &#39;&#39;&#39;
+        read in data from local database using table name
+
+        Parameters
+        ----------
+        tablename: string
+            string containing table name to be uploaded to local database
+        df: datagrame
+            dataframe of users choice
+        conn: object
+            connection for sqllite database
+
+        &#39;&#39;&#39;
+        self.tablename = tablename
+        self.conn = conn
+        df = pd.read_sql_query(f&#34;SELECT * FROM {tablename};&#34;, conn)
+        self.conn.commit()
+        self.conn.close()
+        return df
+
+
+
+
+    def update_data_csv(self, df_local, csv_file,index):
+        &#39;&#39;&#39;
+        update csv file using df
+
+        Parameters
+        ----------
+        df_local : dataframe
+            array of users choice converted to df
+        csv: string
+            csv_file of users choice to update
+        index: bool
+            whether index is kept or not for csv file
+        &#39;&#39;&#39;
+        self.df_local = df_local
+        self.csv_file = csv_file
+        self.index = index
+        df = pd.DataFrame(self.df_local)
+        df = df.reset_index(drop=True)
+        df.to_csv(self.csv_file,index=self.index)</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="classes.Projects.fetch_data_locally_projects"><code class="name flex">
+<span>def <span class="ident">fetch_data_locally_projects</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>read in local data from csv file for projects tab and return dataframe</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_data_locally_projects(self):
+    &#34;&#34;&#34;
+    read in local data from csv file for projects tab and return dataframe
+
+    &#34;&#34;&#34;
+    df = pd.read_csv(self.csv_file_projects)
+    return df</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.fetch_data_locally_subtasks"><code class="name flex">
+<span>def <span class="ident">fetch_data_locally_subtasks</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>read in local data from csv file for subtasks tab and return dataframe</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_data_locally_subtasks(self):
+    &#39;&#39;&#39;
+    read in local data from csv file for subtasks tab and return dataframe
+
+    &#39;&#39;&#39;
+    df = pd.read_csv(self.csv_file_subtasks, index_col=0)
+    return df</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.read_data_in_memory"><code class="name flex">
+<span>def <span class="ident">read_data_in_memory</span></span>(<span>self, tablename)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>read in data from in-memory database using table name</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>tablename</code></strong> :&ensp;<code>string</code></dt>
+<dd>string containing table name to be read from in-memory database</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_data_in_memory(self, tablename):
+    &#39;&#39;&#39;
+    read in data from in-memory database using table name
+
+    Parameters
+    ----------
+    tablename: string
+        string containing table name to be read from in-memory database
+
+    &#39;&#39;&#39;
+    self.tablename = tablename
+    datatable = engine.execute(f&#34;SELECT * FROM {tablename}&#34;).fetchall()
+    return datatable</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.read_data_local_database"><code class="name flex">
+<span>def <span class="ident">read_data_local_database</span></span>(<span>self, tablename, conn)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>read in data from local database using table name</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>tablename</code></strong> :&ensp;<code>string</code></dt>
+<dd>string containing table name to be uploaded to local database</dd>
+<dt><strong><code>df</code></strong> :&ensp;<code>datagrame</code></dt>
+<dd>dataframe of users choice</dd>
+<dt><strong><code>conn</code></strong> :&ensp;<code>object</code></dt>
+<dd>connection for sqllite database</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_data_local_database(self, tablename, conn):
+    &#39;&#39;&#39;
+    read in data from local database using table name
+
+    Parameters
+    ----------
+    tablename: string
+        string containing table name to be uploaded to local database
+    df: datagrame
+        dataframe of users choice
+    conn: object
+        connection for sqllite database
+
+    &#39;&#39;&#39;
+    self.tablename = tablename
+    self.conn = conn
+    df = pd.read_sql_query(f&#34;SELECT * FROM {tablename};&#34;, conn)
+    self.conn.commit()
+    self.conn.close()
+    return df</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.update_data_csv"><code class="name flex">
+<span>def <span class="ident">update_data_csv</span></span>(<span>self, df_local, csv_file, index)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>update csv file using df</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>df_local</code></strong> :&ensp;<code>dataframe</code></dt>
+<dd>array of users choice converted to df</dd>
+<dt><strong><code>csv</code></strong> :&ensp;<code>string</code></dt>
+<dd>csv_file of users choice to update</dd>
+<dt><strong><code>index</code></strong> :&ensp;<code>bool</code></dt>
+<dd>whether index is kept or not for csv file</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update_data_csv(self, df_local, csv_file,index):
+    &#39;&#39;&#39;
+    update csv file using df
+
+    Parameters
+    ----------
+    df_local : dataframe
+        array of users choice converted to df
+    csv: string
+        csv_file of users choice to update
+    index: bool
+        whether index is kept or not for csv file
+    &#39;&#39;&#39;
+    self.df_local = df_local
+    self.csv_file = csv_file
+    self.index = index
+    df = pd.DataFrame(self.df_local)
+    df = df.reset_index(drop=True)
+    df.to_csv(self.csv_file,index=self.index)</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.update_data_in_memory"><code class="name flex">
+<span>def <span class="ident">update_data_in_memory</span></span>(<span>self, df_local, table_db)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>update in-memory database using df</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>df_local</code></strong> :&ensp;<code>array</code></dt>
+<dd>array of users choice converted to df</dd>
+<dt><strong><code>table_db</code></strong> :&ensp;<code>string</code></dt>
+<dd>string containing table name to be uploaded to in-memory database</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update_data_in_memory(self, df_local, table_db):
+    &#39;&#39;&#39;
+    update in-memory database using df
+
+    Parameters
+    ----------
+    df_local : array
+        array of users choice converted to df
+    table_db: string
+        string containing table name to be uploaded to in-memory database
+
+    &#39;&#39;&#39;
+
+    self.df_local = df_local
+    self.table_db = table_db
+    pd.DataFrame(self.df_local).to_sql(self.table_db, con=engine, if_exists=&#39;replace&#39;)</code></pre>
+</details>
+</dd>
+<dt id="classes.Projects.upload_data_local_database"><code class="name flex">
+<span>def <span class="ident">upload_data_local_database</span></span>(<span>self, tablename, df, conn)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>upload data from local database using table name</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>tablename</code></strong> :&ensp;<code>string</code></dt>
+<dd>string containing table name to be uploaded to local database</dd>
+<dt><strong><code>df</code></strong> :&ensp;<code>datagrame</code></dt>
+<dd>dataframe of users choice</dd>
+<dt><strong><code>conn</code></strong> :&ensp;<code>object</code></dt>
+<dd>connection for sqllite database</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def upload_data_local_database(self, tablename, df, conn):
+    &#39;&#39;&#39;
+    upload data from local database using table name
+
+    Parameters
+    ----------
+    tablename: string
+        string containing table name to be uploaded to local database
+    df: datagrame
+        dataframe of users choice
+    conn: object
+        connection for sqllite database
+
+    &#39;&#39;&#39;
+    self.tablename = tablename
+    self.df = df
+    self.conn = conn
+    self.df = pd.DataFrame(self.df)
+    self.df = self.df.reset_index(drop=True)
+    self.df.to_sql(self.tablename, self.conn, if_exists=&#34;replace&#34;, index=False)
+    self.conn.commit()
+    self.conn.close()</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="classes.CreateGUI" href="#classes.CreateGUI">CreateGUI</a></code></h4>
+<ul class="">
+<li><code><a title="classes.CreateGUI.create_gui" href="#classes.CreateGUI.create_gui">create_gui</a></code></li>
+<li><code><a title="classes.CreateGUI.log_in" href="#classes.CreateGUI.log_in">log_in</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="classes.CreatePairs" href="#classes.CreatePairs">CreatePairs</a></code></h4>
+<ul class="">
+<li><code><a title="classes.CreatePairs.get_job_pairs" href="#classes.CreatePairs.get_job_pairs">get_job_pairs</a></code></li>
+<li><code><a title="classes.CreatePairs.get_name_pairs" href="#classes.CreatePairs.get_name_pairs">get_name_pairs</a></code></li>
+<li><code><a title="classes.CreatePairs.get_status_card_pairs" href="#classes.CreatePairs.get_status_card_pairs">get_status_card_pairs</a></code></li>
+<li><code><a title="classes.CreatePairs.get_status_pairs" href="#classes.CreatePairs.get_status_pairs">get_status_pairs</a></code></li>
+<li><code><a title="classes.CreatePairs.get_username_email_pairs" href="#classes.CreatePairs.get_username_email_pairs">get_username_email_pairs</a></code></li>
+<li><code><a title="classes.CreatePairs.get_username_password_pair" href="#classes.CreatePairs.get_username_password_pair">get_username_password_pair</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="classes.Email" href="#classes.Email">Email</a></code></h4>
+<ul class="">
+<li><code><a title="classes.Email.GetPort" href="#classes.Email.GetPort">GetPort</a></code></li>
+<li><code><a title="classes.Email.SenderEmail_Password" href="#classes.Email.SenderEmail_Password">SenderEmail_Password</a></code></li>
+<li><code><a title="classes.Email.SmtpServer" href="#classes.Email.SmtpServer">SmtpServer</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="classes.Employee" href="#classes.Employee">Employee</a></code></h4>
+<ul class="two-column">
+<li><code><a title="classes.Employee.GetEmail" href="#classes.Employee.GetEmail">GetEmail</a></code></li>
+<li><code><a title="classes.Employee.GetJob" href="#classes.Employee.GetJob">GetJob</a></code></li>
+<li><code><a title="classes.Employee.GetName" href="#classes.Employee.GetName">GetName</a></code></li>
+<li><code><a title="classes.Employee.GetPassword" href="#classes.Employee.GetPassword">GetPassword</a></code></li>
+<li><code><a title="classes.Employee.GetStatus" href="#classes.Employee.GetStatus">GetStatus</a></code></li>
+<li><code><a title="classes.Employee.GetStatusCard" href="#classes.Employee.GetStatusCard">GetStatusCard</a></code></li>
+<li><code><a title="classes.Employee.GetUserName" href="#classes.Employee.GetUserName">GetUserName</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="classes.Projects" href="#classes.Projects">Projects</a></code></h4>
+<ul class="">
+<li><code><a title="classes.Projects.fetch_data_locally_projects" href="#classes.Projects.fetch_data_locally_projects">fetch_data_locally_projects</a></code></li>
+<li><code><a title="classes.Projects.fetch_data_locally_subtasks" href="#classes.Projects.fetch_data_locally_subtasks">fetch_data_locally_subtasks</a></code></li>
+<li><code><a title="classes.Projects.read_data_in_memory" href="#classes.Projects.read_data_in_memory">read_data_in_memory</a></code></li>
+<li><code><a title="classes.Projects.read_data_local_database" href="#classes.Projects.read_data_local_database">read_data_local_database</a></code></li>
+<li><code><a title="classes.Projects.update_data_csv" href="#classes.Projects.update_data_csv">update_data_csv</a></code></li>
+<li><code><a title="classes.Projects.update_data_in_memory" href="#classes.Projects.update_data_in_memory">update_data_in_memory</a></code></li>
+<li><code><a title="classes.Projects.upload_data_local_database" href="#classes.Projects.upload_data_local_database">upload_data_local_database</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
